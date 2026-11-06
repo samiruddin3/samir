@@ -1,0 +1,65 @@
+রাওযাহ — CartFlows Checkout প্যাকেজ 2.1
+
+কোথায় আপলোড করবেন
+WordPress → Plugins → Add New → Upload Plugin
+ফাইল: Rawzah-CartFlows-Ready.zip
+আগের Rawzah plugin থাকলে Replace current with uploaded বেছে নিন।
+এটি CartFlows Checkout-এ Elementor design বসানোর installer। CartFlows-এর
+Import Flow uploader-এর JSON ফাইল নয়। ZIP extract করতে হবে না।
+
+ব্যবহার: পাঁচ ধাপ
+১. Elementor, WooCommerce ও CartFlows সক্রিয় রাখুন। ZIP upload করে
+   Activate করুন। প্রয়োজনে Pages → Rawzah Elementor-এ Import Visual
+   Story v2 + All Images চাপুন। ছবি/font নিজের Media/Uploads-এ যাবে।
+২. CartFlows → Flows → আপনার flow → Checkout step → Products থেকে
+   রাওযাহর আসল product নির্বাচন করুন। WooCommerce-এ দাম ৳৮৯৯ রাখুন।
+   Product physical, published ও in stock থাকতে হবে। Checkout layout
+   Classic / One Column রাখুন; flow-তে Thank You step রাখুন।
+৩. Pages → Rawzah Elementor → “CartFlows Checkout-এ ডিজাইন বসান”:
+   আপনার Checkout step নির্বাচন করে “এই Checkout-এ Rawzah design বসান”
+   চাপুন। তারপর Edit Checkout with Elementor দিয়ে যেকোনো লেখা/ছবি বদলান।
+৪. একই পেজের Optional three-field mobile checkout অংশে product ID দিন,
+   preset enable করে Save করুন। WooCommerce-এ Guest checkout এবং Cash
+   on Delivery চালু রাখুন। এতে নাম, ফোন, পূর্ণ ঠিকানা ও delivery choice আসবে।
+৫. আপনার আসল CartFlows Checkout URL-এ একটি test order দিন। WooCommerce
+   Orders এবং Thank You page যাচাই করে সেই URL বিজ্ঞাপনে ব্যবহার করুন।
+
+যা আগে থেকেই আছে
+• ফোনের জন্য Visual Story v2 design, ৬টি আলাদা ছবি ও বাংলা fonts।
+• মাত্র একটি [cartflows_checkout] Shortcode widget। আর checkout widget
+  যোগ করতে হবে না; এই shortcode HTML widget-এ নয়, Shortcode widget-এ।
+• সব CTA একই পেজের #rawzah-order-এ যাবে। অর্ডার WooCommerce-এ সেভ হবে।
+• দাম ও ডেলিভারি শুধু checkout অংশে আসবে। পণ্যের মূল্য WooCommerce-এর।
+• Preset enable করলে ঢাকায় ৳৬০ / বাইরে ৳১০০; এক পিসের মোট ৳৯৫৯/৳৯৯৯
+  (অন্য tax/fee না থাকলে)। এটি বাংলাদেশের delivery-এর জন্য।
+
+Backup ও বিদ্যমান funnel
+Apply চাপার আগে পুরোনো design-এর backup My Templates-এ “Before Rawzah …”
+নামে তৈরি হবে। সেটি Elementor দিয়ে আবার Insert করা যায়। Published checkout
+নির্বাচন করে Apply চাপলে তার design সঙ্গে সঙ্গে বদলাবে; draft বাছলে draft-ই
+থাকবে। Product assignment, flow/thank-you links বা payment settings installer
+বদলায় না। Install/activate করলেই কোনো existing checkout বদলে যায় না।
+
+হাতে template বসাতে চাইলে
+Checkout step → Edit with Elementor → Elementor Canvas → Folder →
+My Templates → Rawzah — Visual Story v2 + CartFlows → Insert।
+অথবা Pages → Rawzah Elementor → Download Elementor JSON থেকে নিজের
+সাইটের media URL-সহ JSON নিন। ZIP-এর native-template.json internal source।
+
+ফর্ম ও ছবির সীমা
+Mobile preset নির্দিষ্ট product একা cart-এ থাকলেই কাজ করে। এটি active রাখলে
+এই plugin active রাখুন। Design/images import হওয়ার পর preset ব্যবহার না
+করলে plugin ছাড়াও Elementor design থাকে।
+মানুষসহ ছবি AI-তৈরি প্রচারমূলক ব্যবহার-দৃশ্য; customer review নয়।
+WooCommerce product ID দেওয়া হয়নি বলে আপনার সাইটে product নির্বাচন বাকি।
+
+পরীক্ষা
+WordPress + আসল Elementor/WooCommerce-এ local CartFlows step fixtures
+ব্যবহার করে design transfer, পুরোনো design backup, product/flow metadata
+অক্ষত থাকা, ভুল step প্রত্যাখ্যান, nonce/admin access এবং mobile rendering
+পরীক্ষা করা হয়েছে। এই পরিবেশে actual CartFlows plugin পাওয়া যায়নি; তাই
+আপনার CartFlows version ও live checkout-এ শেষ test order অবশ্যই দিন।
+কোনো live site বা live order এখানে পরিবর্তন করা হয়নি।
+
+প্রয়োজন: Elementor 3.16+, WordPress 6.0+, PHP 7.4+, WooCommerce, CartFlows।
+এই package Elementor Free দিয়েই কাজ করে। আরও বিবরণ START-HERE-BN.txt-এ।
