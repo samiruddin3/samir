@@ -1,17 +1,27 @@
-RAWZAH — QUICK SETUP
+RAWZAH — VISUAL STORY v2 (phone-first)
 
+NEW INSTALL
 1. Activate Elementor Free, WooCommerce and CartFlows.
-2. Plugins > Add New > Upload Plugin > upload Rawzah-Elementor-Landing.zip > Activate.
-3. In your CartFlows Checkout step, assign the real Rawzah WooCommerce product (BDT 899).
-4. Edit that Checkout step with Elementor. Choose Elementor Canvas.
-   Folder > My Templates > Rawzah — Mobile Landing + CartFlows > Insert.
-   Use CartFlows Classic / One Column layout.
-5. Pages > Rawzah Elementor > enter your real WooCommerce Product ID.
-   Enable the three-field mobile checkout preset and Save to match the preview.
+2. Plugins > Add New > Upload Plugin > Rawzah-Elementor-Landing.zip > Activate.
+3. Pages > Rawzah Elementor > Import Visual Story v2 + All Images (if shown).
+4. CartFlows Checkout step > Products: assign your real Rawzah product (BDT 899).
+5. Edit that step with Elementor > choose Elementor Canvas.
+   Folder > My Templates > Rawzah — Visual Story v2 + CartFlows > Insert.
+   Use CartFlows Classic / One Column checkout.
+6. Pages > Rawzah Elementor > enter your real WooCommerce Product ID.
+   Enable the optional three-field mobile checkout preset and Save to match the preview.
    Keep this plugin active while using that preset. Enable guest checkout and COD.
-6. Test an order on your actual CartFlows URL before publishing/advertising.
-   Expected one-piece totals: Dhaka 959 / outside 999, before other taxes or fees.
+7. Test your actual CartFlows checkout URL before sending ad traffic.
 
-All artwork and fonts are included; no media URL replacement is needed.
-The website page is created as a draft. Existing pages/funnels are not overwritten.
-See START-HERE-BN.txt for complete Bangla instructions, preset scope and test limits.
+UPDATING THE PREVIOUS PACKAGE
+Upload this ZIP in Plugins > Add New and choose Replace current with uploaded.
+Then Pages > Rawzah Elementor > Import Visual Story v2 + All Images.
+This creates a NEW v2 draft and saved template, preserving your previous pages.
+Save a backup of your existing funnel design, then replace its old design with
+Rawzah — Visual Story v2 + CartFlows using Elementor My Templates.
+Keep the real WooCommerce product assigned to the Checkout step.
+
+All 6 distinct images and Bengali fonts used by the page are bundled locally.
+Price and delivery charges appear only in the actual order/checkout area.
+The three people photographs are AI-generated illustrative usage scenes.
+No website is automatically published. See START-HERE-BN.txt for details.
