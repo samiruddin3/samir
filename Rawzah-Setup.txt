@@ -1,0 +1,17 @@
+RAWZAH — QUICK SETUP
+
+1. Activate Elementor Free, WooCommerce and CartFlows.
+2. Plugins > Add New > Upload Plugin > upload Rawzah-Elementor-Landing.zip > Activate.
+3. In your CartFlows Checkout step, assign the real Rawzah WooCommerce product (BDT 899).
+4. Edit that Checkout step with Elementor. Choose Elementor Canvas.
+   Folder > My Templates > Rawzah — Mobile Landing + CartFlows > Insert.
+   Use CartFlows Classic / One Column layout.
+5. Pages > Rawzah Elementor > enter your real WooCommerce Product ID.
+   Enable the three-field mobile checkout preset and Save to match the preview.
+   Keep this plugin active while using that preset. Enable guest checkout and COD.
+6. Test an order on your actual CartFlows URL before publishing/advertising.
+   Expected one-piece totals: Dhaka 959 / outside 999, before other taxes or fees.
+
+All artwork and fonts are included; no media URL replacement is needed.
+The website page is created as a draft. Existing pages/funnels are not overwritten.
+See START-HERE-BN.txt for complete Bangla instructions, preset scope and test limits.
